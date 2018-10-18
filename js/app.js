@@ -54,7 +54,7 @@ infoSpot.map(function (dt) {
     labelInfoSpot.setAttribute('height', '6');
     labelInfoSpot.setAttribute('rotation', '-90 0 0');
     labelInfoSpot.setAttribute('color', 'black');
-    labelInfoSpot.setAttribute('material', 'shader: html; target: #target; transparent: true; ratio: width; fps: 1.5');
+    labelInfoSpot.setAttribute('material', 'shader: html; target: #target' + dt.marker + '; transparent: true; ratio: width; fps: 1.5');
     
     divHtml = document.createElement('div');
     divHtml.setAttribute('id','htmlTarget' + dt.marker);
