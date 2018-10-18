@@ -1,0 +1,79 @@
+[
+    {
+        "marker": 1,
+        "nama": "Pulau Pahawang",
+        "lokasi": "Pulau Pahawang, Punduh Pidada, Pesawaran, Lampung",
+        "deskripsi": "Pulau nan indah ini tediri dari Pahawang besar, pahawang kecil dan pulau kelagian. Terkenal akan kekayaan biota lautnya, beragam terumbu karang tumbuh di perairan pulau Pahawang.",
+        "media": "./image/foto-5-spot-snorkeling-keren-di-pahawang-300x225.jpg"
+    },
+    {
+        "marker": 2,
+        "nama": "Dermaga 4 Ketapang",
+        "lokasi": "Dermaga 4 Ketapang, Pesawaran, Lampung",
+        "deskripsi": "Wisatawan yang bertujuan ke pulau Pahawang bisa naik kapal dari Dermaga 4 Ketapang. Tersedia parkir kendaraan, MCK, tempat oleh-oleh, warung makan, dan, tentu saja, kapal untuk menuju pulau Pahawang",
+        "media": "./image/dermaga-4-ketapang.jpg"
+    },
+    {
+        "marker": 3,
+        "nama": "Homestay",
+        "lokasi": "Pulau Pahawang Besar",
+        "deskripsi": "Bagi wisatawan yang berencana bermalam, dapat menginap di homestay warga pulau Pahawang.",
+        "media": "./image/homestay-tampak-luar.jpg"
+    },
+    {
+        "marker": 4,
+        "nama": "Cottage",
+        "lokasi": "Pulau Pahawang Besar",
+        "deskripsi": "Cottage tersedia di pulau Pahawang yang memberikan kenyamanan privasi bagi wisatawan dan kapasitas yang besar sampai dengan 12 tempat tidur untuk 24 orang.",
+        "media": "./image/cottage-tampak-luar.jpg"
+    },
+    {
+        "marker": 5,
+        "nama": "Taman Nemo",
+        "lokasi": "600 meter dari Pahawang Besar",
+        "deskripsi": "Spot snorkeling ini adalah tempat penangkaran ikan nemo atau ikan badut terbanyak. Terdapat papan yang bertuliskan “Wisata Taman Nemo Lampung” di bawah air yang bisa dimanfaatkan untuk lokasi berfoto.",
+        "media": "./image/snorkeling-spot-taman-nemo.jpg"
+    },
+    {
+        "marker": 6,
+        "nama": "Gosong Bekri",
+        "lokasi": "Dekat dari Pahawang Besar",
+        "deskripsi": "Spot snorkeling ini dapat berfoto dengan candi di dalam laut di kedalaman 1-2 meter yang menempel anemon laut tempat ikan nemo bermain. Tempat ini memiliki hamparan pasir putih di tengah laut saat air surut (gosong). Jika menyelam ke air laut, banyak ikan hias yang menanti untuk berenang bersama sama.",
+        "media": "./image/snorkeling-spot-gosong-bekri.jpg"
+    },
+    {
+        "marker": 7,
+        "nama": "Gosong Pancong",
+        "lokasi": "Dekat dari Pahawang Besar",
+        "deskripsi": "Spot snorkeling di Gosong Pancong memiliki kombinasi unik. Di satu sisi, perairannya begitu dangkal, tapi di sisi yang lain cukup dalam. Terdapat sebuah candi buatan dan ikan-ikan nemo yang sedang bermain bebas diantara anemon dan karang.",
+        "media": "./image/snorkeling-spot-gosong-bekri.jpg"
+    },
+    {
+        "marker": 8,
+        "nama": "Cukuh Bedil",
+        "lokasi": "Dekat Pulau Kelagian Kecil",
+        "deskripsi": "Spot snorkeling tempat menikmati keindahan taman bawah laut dengan berbagai macam terumbu karang dan ikan-ikan hias nan catik dengan kedalaman mencapai 2-4 meter. Wisatawan juga dapat berfoto di bawah air dengan beton yang bertuliskan Taman Nemo Cukuh Bedil.",
+        "media": "./image/snorkeling-spot-taman-nemo.jpg"
+    },
+    {
+        "marker": 9,
+        "nama": "Kelagian Kecil",
+        "lokasi": "Pulau Kelagian Kecil",
+        "deskripsi": "Di Pulau Kelagian Kecil ini terdapat warung-warung kecil yang menjual makanan dan minuman yang cukup lengkap. Setelah mengisi perut dengan sedikit makanan dan minuman, wisatawan bisa melanjutkan kegiatan bermain di pantai Pulau Kelagian Kecil atau bermain water sport seperti, banana boat, sofa boat dan jet ski yang sudah terparkir di Pantai Pulau Kelagian Kecil ini.",
+        "media": "./image/kelagian-kecil.jpg"
+    },
+    {
+        "marker": 10,
+        "nama": "Pahawang Kecil",
+        "lokasi": "Pulau Pahawang Kecil",
+        "deskripsi": "Di sekitar Pahawang Kecil yang berpasir putih itu pula terdapat beberapa area snorkeling berair jernih. Hanya, pengunjung harus berhati-hati, karena tak jauh dari pesisir terdapat palung yang cukup dalam. Pada saat air surut terdapat hamparan pasir yang hampir menyambung dengan Pulau Pahawang Besar disebut dengan Pasir Timbul Pulau Pahawang Kecil. Pasir Timbul Pahawang Kecil paling cantik dikunjungi saat setelah matahari terbit atau menjelang matahari terbenam, karena pada saat itu air akan surut dan pasir timbul atau hamparan pasirnya akan terlihat semuanya.",
+        "media": "./image/pahawang-kecil.jpg"
+    },
+    {
+        "marker": 11,
+        "nama": "Kelagian Besar",
+        "lokasi": "Pulau Kelagian Besar",
+        "deskripsi": "Menurut cerita dari masyarakat sekitar Pulau Pahawang Besar, Pulau Kelagian Besar ini adalah tempat dahulu mereka tinggal sebelum berpindah ke Pulau Pahawang Besar. Sekarang ini, Pulau Kelagian Besar di jadikan tempat untuk pelatihan Tentara Angkatan Laut, dan tidak bisa sembarang orang memasuki kawasan ini. Wisatawan masih bisa snorkeling di sekitar pulau dan menikmati terumbu karang . Terumbu karang cukup beraneka ragam dan indah jika di pandang dari atas air. Banyak ikan-ikan kecil yang sedang asyik bermain di antara warna-warni terumbu karang. ",
+        "media": "./image/kelagian-besar.jpg"
+    }
+]

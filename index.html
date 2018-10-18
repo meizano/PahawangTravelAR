@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1.0,user-scalable=no,maximum-scale=1,width=device-width">
+    <title>Pahawang Travel AR</title>
+    <script src="./js/aframe-master.min.js"></script>
+    <!-- include aframe-ar.js -->
+    <script src="./js/aframe-ar.min.js"></script>
+    <!--HTML Renderer Library -->
+    <script src="./js/aframe-html-shader.min.js"></script>
+</head>
+
+<body style='margin : 0px; overflow: hidden; font-family: Monospace;'>
+
+    <a-scene vr-mode-ui="enabled: false" embedded arjs='detectionMode: mono_and_matrix; matrixCodeType: 3x3; debugUIEnabled: false;'>
+        <!-- add a simple camera -->
+        <a-entity camera></a-entity>
+    </a-scene><a-image src="#my-image" width="16" height="9"  position="0 0 -8"></a-image>
+    <script src="./js/app.js"></script>
+</body>
+</html>
