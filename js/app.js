@@ -20,7 +20,7 @@ infoSpot.map(function (dt) {
     lokasiInfoSpot.setAttribute('value', dt.lokasi);
     lokasiInfoSpot.setAttribute('width', '3');
     lokasiInfoSpot.setAttribute('height', '1');
-    lokasiInfoSpot.setAttribute('position', '-1.5 3 1');
+    lokasiInfoSpot.setAttribute('position', '-1.5 1.5 1');
     gambarInfoSpot.setAttribute('src', dt.media);
     gambarInfoSpot.setAttribute('align', 'center');
     gambarInfoSpot.setAttribute('position', '0 -1 1');
@@ -40,6 +40,50 @@ infoSpot.map(function (dt) {
     });
 }
 
+//fungsi membuat html dan menyematkan ke marker
+function htmlSpot(infoSpot, scenel) {
+    console.log("htmlSpot");
+infoSpot.map(function (dt) {
+    let marker = document.createElement("a-marker");
+    marker.setAttribute("type", "barcode");
+    marker.setAttribute("value", dt.marker);
+
+    let labelInfoSpot = document.createElement('a-entity');
+    labelInfoSpot.setAttribute('primitive', 'plane');
+    labelInfoSpot.setAttribute('width', '6');
+    labelInfoSpot.setAttribute('height', '6');
+    labelInfoSpot.setAttribute('rotation', '-90 0 0');
+    labelInfoSpot.setAttribute('color', 'black');
+    labelInfoSpot.setAttribute('material', 'shader: html; target: #target; transparent: true; ratio: width; fps: 1.5');
+    
+    divHtml = document.createElement('div');
+    divHtml.setAttribute('id','htmlTarget' + dt.marker);
+    divHtml.classList.add('hide');
+    divTarget = document.createElement('div');
+    divTarget.setAttribute('id','target' + dt.marker);
+    namaSpot = document.createElement('h1');
+    namaSpot.innerHTML = dt.judul;
+    lokasiSpot = document.createElement('p');
+    lokasiSpot.innerHTML = dt.lokasi;
+    deskripsiSpot = document.createElement('p');
+    deskripsiSpot.innerHTML = dt.deskripsi;
+    mediaSpot = document.createElement('img');
+    mediaSpot.setAttribute('src',dt.media);
+    
+    divTarget.appendChild(namaSpot);
+    divTarget.appendChild(deskripsiSpot);
+    divTarget.appendChild(mediaSpot);
+    divTarget.appendChild(lokasiSpot);
+
+    divHtml.appendChild(divTarget);
+
+    labelInfoSpot.appendChild(divHtml);
+    
+    marker.appendChild(labelInfoSpot);
+    scene.appendChild(marker);
+    });
+}
+
 // mengakses DOM scene
 scene = document.querySelector("a-scene");
 
@@ -49,7 +93,8 @@ fetch(url)
     .then((resp) => resp.json())
     .then(function(infoSpotJSON) {
     console.log("JSON");
-        listSpot(infoSpotJSON, scene); // membuat obyek
+        // listSpot(infoSpotJSON, scene); // membuat obyek
+        htmlSpot(infoSpotJSON, scene); // membuat obyek
     })
     .catch(function(error) {
         console.log(JSON.stringify(error));
