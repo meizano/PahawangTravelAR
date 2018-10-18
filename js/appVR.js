@@ -39,8 +39,7 @@ infoSpot.map(function (dt) {
     labelInfoSpot.appendChild(textInfoSpot);
     labelInfoSpot.appendChild(lokasiInfoSpot);
     labelInfoSpot.appendChild(gambarInfoSpot);
-    marker.appendChild(labelInfoSpot);
-    scene.appendChild(marker);
+    scene.appendChild(labelInfoSpot);
     });
 }
 
@@ -92,7 +91,7 @@ infoSpot.map(function (dt) {
 scene = document.querySelector("a-scene");
 
 // Mengambil data JSON dari server
-var url = './dispatcher/data.json'; // URL dari data JSON
+var url = './dispatcher/dataSingle.json'; // URL dari data JSON
 fetch(url)
     .then((resp) => resp.json())
     .then(function(infoSpotJSON) {
