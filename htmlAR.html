@@ -4,17 +4,21 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="initial-scale=1.0,user-scalable=no,maximum-scale=1,width=device-width">
-    <title>AR.js: Render HTML sederhana</title>
-    <script src="./js/aframe.min.js"></script>
-    <script src="./js/aframe-ar.js"></script>
+    <title>Pahawang Travel AR</title>
+    <script src="./js/aframe-master.min.js"></script>
+    <script src="./js/aframe-ar.min.js"></script>
     <script src="./js/aframe-html-shader.min.js"></script>
     <style type="text/css">
         #target {
             width: 512px;
             height: 512px;
             position: absolute;
-            background: rgba(255, 255, 255, 0.7);
+            background: rgba(125, 25, 25, 0.7);
             padding: 1em;
+        }
+
+        h1 {
+            color: gold;
         }
 
         /* Hide the HTML using z-index. */
@@ -39,20 +43,19 @@
 
 <body style='margin : 0px; overflow: hidden;'>
     <a-scene embedded arjs update-html>
-        <a-anchor>
             <!-- Letters. -->
             <a-entity id="pageEntity" geometry="primitive: plane; width: 3; height: 3" rotation="-90 0 0" position="0 0.1 0" material="shader: html; target: #target; transparent: true; ratio: width; fps: 1.5"></a-entity>
 
             <!-- HTML to render as a material. -->
             <div id="htmlTarget" class="hide">
                 <div id="target">
-                    <h1>HELLO<span>★</span></h1>
-                    <span id="pre">A</span>
+                    <h1>Pulau Pahawang</h1>
+                    <p>Pulau nan indah ini tediri dari Pahawang besar, pahawang kecil dan pulau kelagian. Terkenal akan kekayaan biota lautnya, beragam terumbu karang tumbuh di perairan pulau Pahawang.</p>
+                    <img src="./image/foto-5-spot-snorkeling-keren-di-pahawang-300x225.jpg" />
+                    <p>Pulau Pahawang, Punduh Pidada, Pesawaran, Lampung</p>
                 </div>
             </div>
-
-        </a-anchor>
-        <a-camera-static />
+        <a-camera preset='barcode' value=1 />
     </a-scene>
 </body>
 

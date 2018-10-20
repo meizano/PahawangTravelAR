@@ -66,7 +66,7 @@ infoSpot.map(function (dt) {
     divTarget = document.createElement('div');
     divTarget.setAttribute('id','target' + dt.marker);
     namaSpot = document.createElement('h1');
-    namaSpot.innerHTML = dt.judul;
+    namaSpot.innerHTML = dt.nama;
     lokasiSpot = document.createElement('p');
     lokasiSpot.innerHTML = dt.lokasi;
     deskripsiSpot = document.createElement('p');

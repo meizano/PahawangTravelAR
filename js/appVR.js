@@ -39,6 +39,7 @@ infoSpot.map(function (dt) {
     labelInfoSpot.appendChild(textInfoSpot);
     labelInfoSpot.appendChild(lokasiInfoSpot);
     labelInfoSpot.appendChild(gambarInfoSpot);
+
     scene.appendChild(labelInfoSpot);
     });
 }
@@ -47,10 +48,6 @@ infoSpot.map(function (dt) {
 function htmlSpot(infoSpot, scenel) {
     console.log("htmlSpot");
 infoSpot.map(function (dt) {
-    let marker = document.createElement("a-marker");
-    marker.setAttribute("type", "barcode");
-    marker.setAttribute("value", dt.marker);
-
     let labelInfoSpot = document.createElement('a-entity');
     labelInfoSpot.setAttribute('primitive', 'plane');
     labelInfoSpot.setAttribute('width', '6');
@@ -65,7 +62,7 @@ infoSpot.map(function (dt) {
     divTarget = document.createElement('div');
     divTarget.setAttribute('id','target' + dt.marker);
     namaSpot = document.createElement('h1');
-    namaSpot.innerHTML = dt.judul;
+    namaSpot.innerHTML = dt.nama;
     lokasiSpot = document.createElement('p');
     lokasiSpot.innerHTML = dt.lokasi;
     deskripsiSpot = document.createElement('p');
@@ -82,8 +79,7 @@ infoSpot.map(function (dt) {
 
     labelInfoSpot.appendChild(divHtml);
     
-    marker.appendChild(labelInfoSpot);
-    scene.appendChild(marker);
+    scene.appendChild(labelInfoSpot);
     });
 }
 
