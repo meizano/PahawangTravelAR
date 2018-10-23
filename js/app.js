@@ -28,8 +28,8 @@ infoSpot.map(function (dt) {
     gambarInfoSpot.setAttribute('src', dt.media);
     gambarInfoSpot.setAttribute('align', 'center');
     gambarInfoSpot.setAttribute('position', '0 -1.15 1');
-    gambarInfoSpot.setAttribute('width', '3.60');
-    gambarInfoSpot.setAttribute('height', '2.40');
+    gambarInfoSpot.setAttribute('width', '2');
+    gambarInfoSpot.setAttribute('height', '2');
     labelInfoSpot.setAttribute('width', '6');
     labelInfoSpot.setAttribute('height', '6');
     labelInfoSpot.setAttribute('rotation', '-90 0 0');
