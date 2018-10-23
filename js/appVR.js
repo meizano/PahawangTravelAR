@@ -40,7 +40,7 @@ infoSpot.map(function (dt) {
     labelInfoSpot.appendChild(lokasiInfoSpot);
     labelInfoSpot.appendChild(gambarInfoSpot);
 
-    scene.appendChild(labelInfoSpot);
+    scenel.appendChild(labelInfoSpot);
     });
 }
 

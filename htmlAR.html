@@ -43,7 +43,7 @@
 
 <body style='margin : 0px; overflow: hidden;'>
     <a-scene embedded arjs update-html>
-            <!-- Letters. -->
+        <a-marker preset='barcode' value=8>            <!-- Letters. -->
             <a-entity id="pageEntity" geometry="primitive: plane; width: 3; height: 3" rotation="-90 0 0" position="0 0.1 0" material="shader: html; target: #target; transparent: true; ratio: width; fps: 1.5"></a-entity>
 
             <!-- HTML to render as a material. -->
@@ -55,7 +55,8 @@
                     <p>Pulau Pahawang, Punduh Pidada, Pesawaran, Lampung</p>
                 </div>
             </div>
-        <a-camera preset='barcode' value=1 />
+        </a-marker>
+
     </a-scene>
 </body>
 

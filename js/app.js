@@ -40,7 +40,7 @@ infoSpot.map(function (dt) {
     labelInfoSpot.appendChild(lokasiInfoSpot);
     labelInfoSpot.appendChild(gambarInfoSpot);
     marker.appendChild(labelInfoSpot);
-    scene.appendChild(marker);
+    scenel.appendChild(marker);
     });
 }
 
@@ -84,7 +84,7 @@ infoSpot.map(function (dt) {
     labelInfoSpot.appendChild(divHtml);
     
     marker.appendChild(labelInfoSpot);
-    scene.appendChild(marker);
+    scenel.appendChild(marker);
     });
 }
 
